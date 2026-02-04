@@ -26,7 +26,7 @@ public class ShopRepositoryTest {
     }
 
     @Test
-    public void TestWhenIdWasNotFound() {
+    public void TestForException() {
         ShopRepository repo = new ShopRepository();
         repo.add(product1);
         repo.add(product2);
